@@ -1,0 +1,5 @@
+SELECT unique_id, name
+FROM Employees
+LEFT JOIN  EmployeeUNI
+USING (id);
+#we are using left join because we want all the names of the EmployeeUNI
