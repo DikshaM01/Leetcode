@@ -1,0 +1,6 @@
+#the question here is asking about to find the name of the author who has 
+#atleast view their work for that viewer id and authour id should be same
+select distinct author_id as id
+from Views where
+author_id=viewer_id 
+order by author_id;
